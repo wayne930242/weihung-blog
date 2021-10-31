@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Noto+Sans+TC";
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Noto+Sans+TC";
+  line-height: 1.7;
+  font-size: 18px;
+  color: #373F49;
+  background: #eee;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1em;
+  margin-bottom: .6em;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+a {
+  color: currentColor;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+pre {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.wrapper {
+  width: calc(100% - 10vmin);
+  margin: 0 auto;
+  padding: 5vmin 0;
+}
+
+  .wrapper > h1{
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+.katex {
+  font-size: inherit !important;
+}
+
+/**
+ * article grid
+ */
+.article-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 5vmin;
+}
+
+/**
+ *
+ */
+.section-headline {
+  padding: 0 0 0.4em 0;
+  margin: 0 0 5vmin 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/**
+ *
+ */
+.list-inline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+  .list-inline li {
+    display: inline-block;
+  }
